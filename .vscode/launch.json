@@ -1,0 +1,10 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - questao1",
+            "request": "launch",
+            "mainClass": "exercicio3.questao1"
+        }
+    ]
+}
