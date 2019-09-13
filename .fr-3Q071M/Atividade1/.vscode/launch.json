@@ -1,0 +1,29 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Parte1",
+            "request": "launch",
+            "mainClass": "Exercicio4.Parte1"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ContaCorente",
+            "request": "launch",
+            "mainClass": "Exercicio4.ContaCorente"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Atividade1",
+            "request": "launch",
+            "mainClass": "atividade1.Atividade1"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Atividade1",
+            "request": "launch",
+            "mainClass": "atividade1.Atividade1",
+            "projectName": "Atividade1_fbb0ab5f"
+        }
+    ]
+}
