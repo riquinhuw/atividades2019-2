@@ -1,4 +1,4 @@
-# Dispositivos Móveis 2019/2
+# Tecnicas de proramação 2019/2
 
 Compilado das atividades da cadeira Computação Para Dispositivos Móveis.
 
