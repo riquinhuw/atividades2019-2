@@ -11,6 +11,7 @@ _Data de inicio: 13/09/2019_
 - [X] Exercicio4
 - [X] Exercicio3
 - [X] atividade1
+- [] pratica1
 
 -------------------------
 
