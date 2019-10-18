@@ -1,9 +1,9 @@
 package pratica1;
 
 /**
- * questao3
+ * questao4
  */
-public class questao3 {
+public class questao4 {
 
     public static void main(String[] args) {
         //double saldo = 300;
@@ -16,6 +16,10 @@ public class questao3 {
         } catch (Exception e) {
             System.out.println(e.getMessage());
         }
+        // não tem misterio, o valor do saldo ainda está no objeto
+        // então basta fazer mais codigo para mostrar que ainda temos o 
+        // saldo do cliente
+        System.out.println("\nO seu saldo real é"+conta.saldo);
     }
 
     public static double sacar(double saldo,double valor){
