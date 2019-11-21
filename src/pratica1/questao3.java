@@ -52,7 +52,6 @@ class conta{
         throw new questao3Exception("Saldo Insuficiente, seu saldo é:"+saldo);
     }else {
         saldo-=valor;
-        
         }    
     
     }
