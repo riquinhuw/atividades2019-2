@@ -5,6 +5,59 @@
             "name": "CodeLens (Launch) - questao3",
             "request": "launch",
             "mainClass": "pratica1.questao3",
+            "projectName": "atividades2019-2_3258f8a"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - testando",
+            "request": "launch",
+            "mainClass": "testando",
+            "projectName": "atividades2019-2_3258f8a"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - teste",
+            "request": "launch",
+            "mainClass": "Aps.numero2.teste",
+            "projectName": "atividades2019-2_3258f8a"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - teste",
+            "request": "launch",
+            "mainClass": "Aps.teste",
+            "projectName": "atividades2019-2_3258f8a"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - atividade2",
+            "request": "launch",
+            "mainClass": "Aps.atividade2",
+            "projectName": "atividades2019-2_3258f8a"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - numero2",
+            "request": "launch",
+            "mainClass": "Aps.numero2"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Atividade1",
+            "request": "launch",
+            "mainClass": "atividade1.Atividade1"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - numero1",
+            "request": "launch",
+            "mainClass": "Aps.numero1"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - questao3",
+            "request": "launch",
+            "mainClass": "pratica1.questao3",
             "projectName": "java_ce104b35"
         },
         {

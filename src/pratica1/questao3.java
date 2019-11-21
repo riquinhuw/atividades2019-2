@@ -51,7 +51,7 @@ class conta{
         if (saldo < valor) {
         throw new questao3Exception("Saldo Insuficiente, seu saldo é:"+saldo);
     }else {
-        saldo-=valor;
+        saldo-=valor;  
         }    
     
     }
