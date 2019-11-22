@@ -12,24 +12,36 @@ public class numero2 {
     public static void main(String[] args) {
         ArrayList<Integer> numeros = new ArrayList();
         double somaGrandePraCaramba=0;
-        for (int i = 1; i < 101; i++) {// para listar de 1 a 100
+        double auxiliar=0;
+        for (int i = 1; i < 11; i++) {// para listar de 1 a 100
             numeros.add(i);
         }
 
-        for (int i = 0; i < 100; i++) {
+        for (int i = 0; i < 10; i++) {
             if (i==0) {
                 System.out.println("Numero:"+numeros.get(i));
                 System.out.println("Fatorado:"+fatorar(numeros.get(i)));
-                somaGrandePraCaramba += numeros.get(i)/fatorar(numeros.get(i)*2);
+                auxiliar = fatorar(numeros.get(i));
+                somaGrandePraCaramba += numeros.get(i)/auxiliar;
+                //somaGrandePraCaramba += numeros.get(i)/fatorar(numeros.get(i)*2);
+                System.out.println("Somando deu:"+somaGrandePraCaramba);
             } else {
                 if (i%2!=0) {
                     System.out.println("Numero:"+numeros.get(i));
                     System.out.println("Fatorado:"+fatorar(numeros.get(i)));
-                    somaGrandePraCaramba -= numeros.get(i)/fatorar(numeros.get(i)*2);
+                    auxiliar = fatorar(numeros.get(i));
+                    somaGrandePraCaramba += numeros.get(i)/auxiliar;
+                    //somaGrandePraCaramba -= numeros.get(i)/fatorar(numeros.get(i)*2);
+                    System.out.println(numeros.get(i)/fatorar(numeros.get(i)*2));
+                    System.out.println("Subtraindo deu:"+somaGrandePraCaramba);
                 } else {
                     System.out.println("Numero:"+numeros.get(i));
                     System.out.println("Fatorado:"+fatorar(numeros.get(i)));
-                    somaGrandePraCaramba += numeros.get(i)/fatorar(numeros.get(i)*2);
+                    auxiliar = fatorar(numeros.get(i));
+                    somaGrandePraCaramba += numeros.get(i)/auxiliar;
+                    //somaGrandePraCaramba += numeros.get(i)/fatorar(numeros.get(i)*2);
+                    System.out.println(numeros.get(i)/fatorar(numeros.get(i)*2));
+                    System.out.println("Somando deu:"+somaGrandePraCaramba);
                 }
             }
             
